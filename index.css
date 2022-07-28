@@ -52,8 +52,7 @@
     }
     .form-input-text{
         width: inherit;
-    
-        padding-left: 1vmax;
+
         padding-top:0.5vmax;
         padding-bottom: 0.5vmax;
     
@@ -67,7 +66,7 @@
         justify-content: space-between;
         flex-direction: row;
         
-        width: 105%;
+        width: 100%;
     }   
     
     .form-button{
@@ -76,7 +75,7 @@
         justify-content: center;
         flex-direction: row;
         
-        width: 95%;
+        width: 97%;
     
         padding : 0.5vmax;
         border-radius: 0.5vmax;
@@ -169,9 +168,9 @@
     }
 
     .main-section{
-        margin: 0;
+        margin-top: 1vh;
+        margin-left: 2vw;
     }
-
     body{
         overflow: none;
     }
@@ -193,7 +192,4 @@
         height: 4vh;
     }
 
-    .form-button{
-        padding : 1.5vmax;
-    }
 }
