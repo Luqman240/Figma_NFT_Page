@@ -3,11 +3,13 @@
     padding: 0;
     font-family: "Inter";
 }
-body{
-    overflow: hidden;
-}
+
 
 @media screen {
+    body{
+        overflow: hidden;
+    }
+
     .header{
         position: absolute;
         display: flex;
@@ -147,10 +149,7 @@ body{
         width: 50vw;
         height : 90vh;
     }
-    
-    .form-container{
-        width : 27.5%;
-    }
+
     .form-input-text{
         padding-top:0.8vmax;
         padding-bottom: 0.8vmax;
@@ -162,8 +161,15 @@ body{
 }
 
 @media screen and (max-width:1088px){
+    body{
+        overflow: auto;
+    }
     .header{
         margin:0;
+    }
+
+    .main-section{
+        margin: 0;
     }
 
     body{
